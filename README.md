@@ -110,14 +110,14 @@ Expected behavior: Files with format .doc files should be supported
 2.Files with format .pdf are not supported: message "File not supported!" appears when uploading a .pdf file
 Expected behavior: Files with format .pdf files should be supported
 
-3. "Reset" button for display area 1, overlaps the "Difference" button
+3."Reset" button for display area 1, overlaps the "Difference" button
 Expected behavior: Reset button1 should be position symetrically from reset button 2
 
-4. Option "show only difference" is not working properly. 
+4.Option "show only difference" is not working properly. 
 When checked it only hides the empty sapces (marked with gray), and leavs the red lines from delete).
 Expected behavior: When option "show only difference" is checked: in the difference table, only the yellow diffrence lines should appear
 
-5. Display area with text compared to blank 
+5.Display area with text compared to blank 
 When a display area with text is compared to blank, no difference is shown
 Expected behavior: The differnce column shoul appear  OR a message
 
