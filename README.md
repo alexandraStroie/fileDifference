@@ -22,8 +22,9 @@ CMD go to folder cd.. and run: npx cypress open
 open cypress with: npx cypress open     
 (note: npx is included with npm > v5.2 or can be installed separately.)
 
-OR run tests directly from cmd with: npx cypress run
+OR run tests directly from cmd with: npm test
 
+------------------------------------------------------------------------------------------------------------
 
 Specs that fail: 
 test4_docFiles.spec.js  -  cannot open .doc files (message File not supported! appears and fails test)
