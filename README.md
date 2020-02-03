@@ -60,7 +60,7 @@ Compare two different txt files of small sizes that contain only one difference 
 	press reset buttons and check if the display areas are empty
 	
 
-The following .spec.js files follows aprox. all the steps found in test1_DifferentTxtFiles.spec.js
+The following specs files follows aprox. all the steps found in test1_DifferentTxtFiles.spec.js
 
 test2_SameTxtFile.spec.js: contains 6 test cases (one describe, 2 contexts and 6 "it")
 
@@ -104,13 +104,17 @@ test5_pdfFiles.spec.js
 Bugs
 1.Files with format .doc are not supported: message "File not supported!" appears when uploading a .doc file
 Expected behavior: Files with format .doc files should be supported
+
 2.Files with format .pdf are not supported: message "File not supported!" appears when uploading a .pdf file
 Expected behavior: Files with format .pdf files should be supported
+
 3. "Reset" button for display area 1, overlaps the "Difference" button
 Expected behavior: Reset button1 should be position symetrically from reset button 2
+
 4. Option "show only difference" is not working properly. 
 When checked it only hides the empty sapces (marked with gray), and leavs the red lines from delete).
 Expected behavior: When option "show only difference" is checked: in the difference table, only the yellow diffrence lines should appear
+
 5. Display area with text compared to blank 
 When a display area with text is compared to blank, no difference is shown
 Expected behavior: The differnce column shoul appear  OR a message
@@ -119,11 +123,17 @@ Expected behavior: The differnce column shoul appear  OR a message
 
 Other test cases can be: 
 1.Upload other file format then the ones supported
+
 2.Upload images and see if it breaks
+
 3.Upload docs with images and links
+
 4.Upload pdfs with images and links
+
 5.Upload mp3 files (the result should be: File not supported)
+
 6.Type in text, delete/insert and compare
+
 7.Upload a txt file (and other formats), then upload in the same area other files, and check if in the display area is only the second file
 
 
