@@ -42,14 +42,20 @@ mime type for uploading files using cypress: https://developer.mozilla.org/en-US
 Project organization:
 
 elements folder -> contains a elements_json.json file with the selectors used in testing the app
+
 function folder -> contains a functions.js file with functions that are called in tests (ex: functions for pressing buttons etc)
+
 general_commands -> contains a general_commands.js file with commands used in tests (ex: uploadFiles, compareText)
+
 parameters -> contains a testParameters.json file with parameters used in tests (ex: textFileName, path etc)
+
 documents -> contains the documents used in testing (ex .txt files, .doc etc)
+
 integration -> file_diff_test -> contains .spec.js files - the test cases for the application 
 
 
 Test files:
+
 test1_DifferentTxtFiles.spec: contains one test (one "it"):
 Compare two different txt files of small sizes that contain only one difference (hello world text)
 	uploads files
