@@ -103,6 +103,7 @@ test5_pdfFiles.spec.js
 
 
 Bugs
+
 1.Files with format .doc are not supported: message "File not supported!" appears when uploading a .doc file
 Expected behavior: Files with format .doc files should be supported
 
@@ -123,6 +124,7 @@ Expected behavior: The differnce column shoul appear  OR a message
 
 
 Other test cases can be: 
+
 1.Upload other file format then the ones supported
 
 2.Upload images and see if it breaks
