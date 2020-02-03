@@ -1,0 +1,25 @@
+{
+    "differenceBtn": "#diff",
+    "fileUploadBtn1": "#fileInput1",
+    "fileUploadBtn2": "#fileInput2",
+    "clearBtn1": "#clear1",
+    "clearBtn2": "#clear2",
+    "showOnlyDiffCheck": "#showonlydiff",
+    "displayArea1": "#fileDisplayArea1",
+    "displayArea2": "#fileDisplayArea2",
+    "diffLineColumn": "#R",
+    "emptyLineColumn": "#E",
+    "insertLineColumn": "#I",
+    "deleteLineCloumn": "#D",
+    "footerElements": ".texttitle",
+    "chooseFile1": "#fileInput1",
+    "chooseFile2": "#fileInput2",
+    "diffInfo": ".diffinfo",
+    "diffColumnCls": ".replace",
+    "emptyColumCls": ".empty",
+    "insertColumnCls": ".insert",
+    "deleteColumnCls": ".delete"
+    
+
+    
+  }

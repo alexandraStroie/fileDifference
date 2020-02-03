@@ -1,0 +1,48 @@
+Test Plan
+for the
+File Difference Application
+
+1. Objectives
+1.1 Purpose
+This document describes the plan for testing the File Difference application.
+This Test Plan document supports the following objectives:
+    • Identify the resources needed for testing manual and automated
+    • Recommend and describe the testing strategies 
+
+	
+2. Resources needed for testing
+    • The application must be tested for the following browsers: Firefox, Chrome, Microsoft Edge, Internet Explorer, Opera
+    • Automated test cases will be written in Java (at least Java 8), and the framework used is Selenium.
+    • Continuous integration tool: Jenkins
+      
+
+3. Testing Strategy
+3.1 Performance testing 
+    • Test the application loading time for different size documents
+    • Test the resource usage of the application when loading uploading/compare different size documents
+                           Undesired behavior for performance testing: the application crashes while uploading or comparing the documents
+                          
+
+3.2 Load testing 
+    • Test the application behavior when multiple users try to upload a document (5MB)
+    • Test the application behavior when multiple users try to compare a document (at least 5MB)
+                           Undesired behavior for load testing: the application crashes while uploading or comparing the documents
+
+3.3 Stress testing 
+    • Test the application behavior when multiple users try to upload and compare a document of small size (5MB) for one hour 
+                          Undesired behavior for stress testing: the application crashes while uploading or comparing the documents
+      
+3.4 Automated Regression Testing
+    • Test cases will be run in after every release to ensure that the existing functionality works fine
+                          Undesired behavior for regression testing: the application crashes while uploading or comparing the documents, buttons cannot be pressed anymore, etc.
+
+4. User Acceptance Criteria
+    • All buttons on the application must work
+    • Uploading documents must work without crashing
+    • Comparing documents must work without crashing
+
+5. Test Plan
+    1. Upload the same document for comparing and check the result (at least 1Mb max 10Mb) => there should be no differences
+    2. Upload two diffrent documents for comparing and check the result (at least 1Mb max 10Mb) => the app should show the differences
+    3. Upload only one document and compare with nothing => the app should request the other document for comparing
+

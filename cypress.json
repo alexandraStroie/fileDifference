@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://www.developsense.com/exercises/fd/filediffer.html",
+    "requestTimeout": 6000,
+    "responseTimeout": 30000,
+    "fixturesFolder": "cypress/documents",
+    "video": false
+}
