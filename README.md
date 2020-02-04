@@ -147,6 +147,12 @@ Other test cases can be:
 
 
 
+Tests running:
+
+
+Spec2
+
+![](spec2_giphy.gif)
 
 
 
